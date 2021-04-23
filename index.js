@@ -8,15 +8,15 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-// const time = parseInt(timeString);
-const sHours = timeString.split(':');
+const time = parseInt(timeString);
+// const sHours = timeString.split(':');
 // const sMinutes = timeString.split(':')[1];
 let greetSen;
 /* Write your implementation of greet() */
-function greet(sHours){
-  if(sHours < "12"){
+function greet(time){
+  if(time < "12"){
     return "Good Morning";
-  }else if (sHours > "17"){
+  }else if (time > "17"){
     return "Good Evening";
   } else{
     return "Good Afternoon";
