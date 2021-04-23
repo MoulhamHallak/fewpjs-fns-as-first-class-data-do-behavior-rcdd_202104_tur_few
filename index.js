@@ -25,8 +25,8 @@ function greet(timeString){
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage(testContent){
+function displayMessage(greetSen){
   let content = "greetSen";
-  let greetcontent = document.getElementById("greeting").innerText
-      expect(greetcontent).to.equal(content);
+  let greetcontent = document.getElementById("greeting").innerText = "greetSen";
+
 }
