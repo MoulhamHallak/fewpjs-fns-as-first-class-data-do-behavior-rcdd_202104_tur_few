@@ -13,7 +13,7 @@ const time = parseInt(timeString);
 // const sMinutes = timeString.split(':')[1];
 // let greetSen;
 /* Write your implementation of greet() */
-function greet(time){
+function greet(timeString){
   if(time < "12"){
     return "Good Morning";
   }else if (time > "17"){
