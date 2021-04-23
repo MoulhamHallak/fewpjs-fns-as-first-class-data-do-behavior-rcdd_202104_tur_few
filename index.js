@@ -12,7 +12,6 @@ function handleClick(e) {
 // const sMinutes = timeString.split(':')[1];
 /* Write your implementation of greet() */
 function greet(timeString){
-  let greetSen;
   const time = parseInt(timeString);
   if(time < "12"){
     return "Good Morning";
@@ -21,12 +20,9 @@ function greet(timeString){
   } else{
     return "Good Afternoon";
   }
-  return greetSen;
 }
 
 /* Write your implementation of displayMessage() */
 function displayMessage(greetSen){
-  let content = "greetSen";
-  let greetcontent = document.getElementById("greeting").innerText = "greetSen";
-
+  let greetcontent = document.getElementById("greeting").innerText = greetSen;
 }
