@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 // const time = parseInt(timeString);
-const sHours = timeString.split(':')[0];
-const sMinutes = timeString.split(':')[1];
+const sHours = timeString.split(':');
+// const sMinutes = timeString.split(':')[1];
 let greetSen;
 /* Write your implementation of greet() */
 function greet(sHours){
