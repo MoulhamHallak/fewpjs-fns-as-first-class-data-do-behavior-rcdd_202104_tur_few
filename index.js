@@ -1,5 +1,4 @@
 /* Given Code, don't edit */
-
 document.querySelector("button").addEventListener("click", handleClick);
 
 function handleClick(e) {
@@ -8,9 +7,6 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-// const sHours = timeString.split(':');
-// const sMinutes = timeString.split(':')[1];
-/* Write your implementation of greet() */
 function greet(timeString){
   const time = parseInt(timeString);
   if(time < "12"){
@@ -24,5 +20,5 @@ function greet(timeString){
 
 /* Write your implementation of displayMessage() */
 function displayMessage(greetSen){
-  let greetcontent = document.getElementById("greeting").innerText = greetSen;
+  document.getElementById("greeting").innerText = greetSen;
 }
