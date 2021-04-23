@@ -10,9 +10,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 // const sHours = timeString.split(':');
 // const sMinutes = timeString.split(':')[1];
-let greetSen;
 /* Write your implementation of greet() */
 function greet(timeString){
+  let greetSen;
   const time = parseInt(timeString);
   if(time < "12"){
     return "Good Morning";
@@ -21,11 +21,11 @@ function greet(timeString){
   } else{
     return "Good Afternoon";
   }
-  // return greetSen;
+  return greetSen;
 }
 
 /* Write your implementation of displayMessage() */
-let content = "greetSen"
+let content = "greetSen";
 function displayMessage(testContent){
   let greetcontent = document.getElementById("greeting").innerText
       expect(greetcontent).to.equal(content);
